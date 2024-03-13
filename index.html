@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>BMI CALCULATOR</h1>
+    <div class="weight">
+        <P>Weight(in KG)</P>
+        <input type="number" id="wt" value="100" placeholder="Weight">    
+    </div>
+    <div class="height">
+        <p>Height(in Meter)</p>
+        <input type="number" id="ht" value="100" placeholder="Height">
+    </div>
+    <div class="info">
+        <pre>BMI weight Guide:  Underweight: BMI below 18.5
+                   Healthy weight: BMI 18.5–24.9
+                   Overweight: BMI 25.0–29.9
+                   Obesity: BMI 30.0 and above</pre>
+    </div>
+    <button>Calculate</button>
+  </div>
+  <div class="result"></div>
+    <script src="BMI.js"></script>
+</body>
+</html>
